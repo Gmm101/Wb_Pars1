@@ -6,7 +6,7 @@ from main import get_seller_id
 import json
 import time
 
-bot = Bot(token="6751886608:AAFRyJT6NVjlRx9NU7M9cvAJ7W9AoOAoFX4", parse_mode=types.ParseMode.HTML)
+bot = Bot(token=YOUR_TOKEN, parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot)
 
 
